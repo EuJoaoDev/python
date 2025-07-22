@@ -1,0 +1,1 @@
+lista = print(list(range(11)))

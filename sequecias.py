@@ -17,3 +17,4 @@ print("Lista:", lista)
 print("Tupla:", tupla)
 print("String:", texto)
 print("Range:", list(intervalo))
+
