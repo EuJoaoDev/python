@@ -1,4 +1,1 @@
-input('digite algo: ')
-
-##################################
-
+print('Hello World')
