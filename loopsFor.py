@@ -1,13 +1,15 @@
-texto = input("Insira um texto:")
-VOGAIS = 'AEIOU'
+#LOOP FOR - É UMA ESTRUTURA DE REPETIÇÃO QUE PERMITE EXECUTAR UM BLOCO DE CÓDIGO UM NÚMERO DETERMINADO DE VEZES
 
-for letra in texto:
-    if letra.upper() in VOGAIS:
-        print(f'Deste texto, a(s) vogal(is) encontrada(s) foi(ram): {letra.upper()}')
-    else:
-        print(f'Deste texto, a(s) consoante(s) encontrada(s) foi(ram): {letra.upper()}')
-        
-        
-        
-for n in range(0,11,2):
-    print(n)
+nome = "potetones"
+lista = [1, 2, 3, 4, 5]
+numeros = range(1, 10)
+
+for letras in nome: 
+    print(letras)
+    
+for dados in lista:
+    print(dados)
+    
+for numero in range(1, 11):
+    print(numero)
+    
